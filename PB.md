@@ -1,12 +1,12 @@
 ## Language
 
-### Introduction
+### Introduction &#10003;
 
 -   What is a programming language?
 -   Javascript or ECMAscript? (brief history of JS)
 -   Interpreted languages vs. compiled languages (quick overview)
 
-### Variables: Running js files with node
+### Variables: Running js files with node &#10003;
 
 -   Variables: introducing `var`, `let`
 -   Constants: introducing `const`
@@ -14,28 +14,28 @@
 -   A word about naming conventions: camelCase vs. snake_case
 -   Syntax debugging II: Undeclared variables
 
-### Data Types: An introduction
+### Data Types: An introduction &#10003;
 
 -   Primitive Data Types: Numbers, Strings, Boolean, Null and Undefined
 -   Empty variables: `null` vs. `undefined`.
 -   Objects: Arrays and Objects
 -   Data type: the unary operator `typeof`
 
-### Statements
+### Statements &#10003;
 
 -   Definition of statement: The semicolon `;`
 -   Hello world: `console.log(<expression>)`
 -   Comments: `//`, `/* */`
 -   Syntax Debugging I: Unclosed parentheses
 
-### Expressions
+### Expressions &#10003;
 
 -   String expressions: single quotes, double quotes, concatenation
 -   Mathematical expressions: +, -, \*, /, %
 -   Boolean expressions: comparison operators (===, !==, >=, <=, >, <)
 -   Conditional expressions: the ternary operator (combining the examples above)
 
-### Changing variables
+### Changing variables &#10003;
 
 -   Variable reassignment: `=`, `+=`, `-=`, string accumulation
 -   Counting iterations: the counter variable, `++`, `--`
@@ -43,7 +43,7 @@
 -   Conditional assignment with the ternary operator
 -   Syntax debugging III: Reassigning constants
 
-### String
+### String &#10003;
 
 -   Escaping special chars: `\'`, `\`, `\n`
 -   Syntax debugging IV: Strings and quotes
@@ -53,7 +53,7 @@
 -   Getting a character in a string: bracket notation
 -   Syntax debugging VI: Unclosed brackets
 
-### Basic String Methods
+### Basic String Methods &#10003;
 
 -   Converting case with:
 
@@ -63,34 +63,34 @@
 -   Checking if a string is inside another string: `String.prototype.includes()`
 -   Removing padding spaces: `String.prototype.trim()`
 
-### Number
+### Number &#10003;
 
 -   Combining strings and numbers with +
 -   Integers vs. Floats
 -   Converting strings into Numbers: `parseInt()`, `parseFloat()`
 -   Using modulo
 
-### Math
+### Math &#10003;
 
 -   Rounding up with `Math.ceil()`
 -   Rounding down with `Math.floor()`
 -   Getting random numbers with `Math.random()`
 -   Maximum and minimum with `Math.max()`, `Math.min()`
 
-### Number Pitfalls
+### Number Pitfalls &#10003;
 
 -   Dealing with NaN: `isNaN(<expression>)`, `typeof NaN`
 -   Very long numbers: `e`, rounding errors
 -   Dealing with rounding errors: `Number.prototype.toFixed()`
 -   Division pitfalls: Dealing with `Infinity`
 
-### Logical Thinking I
+### Logical Thinking I &#10003;
 
 -   Simple preposition analysis
 -   Logical operators: `&&`, `||`
 -   Using logic to solve problems; How does a converyor belt work? or How do traffic lights work?
 
-### Boolean
+### Boolean &#10003;
 
 -   Truthy and falsy values: false, undefined, null, 0, ''
 -   Type conversion: `==` vs. `===`
@@ -98,7 +98,7 @@
 -   Boolean inversion with `!`
 -   Short circuit assignment: Assigning variable fallback with `||`
 
-### Array: Saving multiple values in one name
+### Array: Saving multiple values in one name &#10003;
 
 -   Assigning array literals:
 
@@ -108,7 +108,7 @@
 -   Re-assigning array items with square brackets
 -   `const`s and array items
 
-### Basic Array methods
+### Basic Array methods &#10003;
 
 -   Finding Items: `Array.prototype.indexOf(<item>)`
 -   Adding items: `Array.prototype.push()`, `Array.prototype.unshift()`
@@ -119,17 +119,17 @@
 
 ## Programm
 
-### Introduction
+### Introduction &#10003;
 
 -   The flow of a program (left to right, top to bottom)
 
-### Logical Thinking II
+### Logical Thinking II &#10003;
 
 -   What is an Algorithm?
 -   Analyzing problems: Input and Output
 -   Coming up with solutions: writing algorithms
 
-### Decisions
+### Decisions &#10003;
 
 -   Conditional algorithms
 -   The conditional statement: `if(<boolean>){ ... }`

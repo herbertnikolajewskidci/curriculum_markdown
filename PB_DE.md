@@ -1,12 +1,12 @@
-## Sprache
+## Language
 
-### Einführung
+### Einführung &#10003;
 
 -   Was ist eine Programmiersprache?
 -   Javascript oder ECMAscript? (kurze Geschichte von JS)
 -   Interpretierte Sprachen vs. kompilierte Sprachen (kurzer Überblick)
 
-### Variablen: Js-Dateien mit Node ausführen
+### Variablen: Js-Dateien mit Node ausführen &#10003;
 
 -   Variablen: Einführung von `var`, `let`
 -   Konstanten: Einführung in `const`
@@ -14,28 +14,28 @@
 -   Ein Wort zu Namenskonventionen: camelCase vs. snake_case
 -   Syntax-Debugging II: Nicht deklarierte Variablen
 
-### Datentypen: Eine Einführung
+### Datentypen: Eine Einführung &#10003;
 
 -   Primitive Datentypen: Zahlen, Zeichenketten, Boolesche, Null und Undefiniert
 -   Leere Variablen: `null` vs. `undefined`.
 -   Objekte: Arrays und Objekte
 -   Datentyp: der unäre Operator `typeof`
 
-### Anweisungen
+### Anweisungen &#10003;
 
 -   Definition einer Anweisung: Das Semikolon `;`
 -   Hallo Welt: `Konsole.log(<Ausdruck>)`
 -   Kommentare: `//`, `/* */`
 -   Syntax Debugging I: Ungeschlossene Klammern
 
-### Ausdrücke
+### Ausdrücke &#10003;
 
 -   String-Ausdrücke: einfache Anführungszeichen, doppelte Anführungszeichen, Verkettung
 -   Mathematische Ausdrücke: +, -, \*, /, %
 -   Boolesche Ausdrücke: Vergleichsoperatoren (===, !==, >=, <=, >, <)
 -   Bedingte Ausdrücke: der ternäre Operator (Kombination der obigen Beispiele)
 
-### Ändern von Variablen
+### Ändern von Variablen &#10003;
 
 -   Neuzuweisung von Variablen: `=`, `+=`, `-=`, Stringakkumulation
 -   Zählen von Iterationen: die Zählervariable, `++`, `--`
@@ -43,7 +43,7 @@
 -   Bedingte Zuweisung mit dem ternären Operator
 -   Syntax-Debugging III: Neuzuweisung von Konstanten
 
-### Zeichenkette
+### Zeichenkette &#10003;
 
 -   Umgehung von Sonderzeichen: `\'`, `\`, `\n`
 -   Syntaxfehlersuche IV: Zeichenketten und Anführungszeichen
@@ -53,7 +53,7 @@
 -   Ermitteln eines Zeichens in einer Zeichenkette: Klammerschreibweise
 -   Syntaxfehlersuche VI: Nicht geschlossene Klammern
 
-### Grundlegende String-Methoden
+### Grundlegende String-Methoden &#10003;
 
 -   Groß- und Kleinschreibung umwandeln mit:
 
@@ -63,34 +63,34 @@
 -   Prüfen, ob eine Zeichenkette innerhalb einer anderen Zeichenkette liegt: `String.prototype.includes()`
 -   Entfernen von Leerzeichen: `String.prototype.trim()`
 
-### Zahl
+### Zahl &#10003;
 
 -   Kombinieren von Strings und Zahlen mit +
 -   Ganzzahlen vs. Fließkommazahlen
 -   Konvertieren von Strings in Zahlen: `parseInt()`, `parseFloat()`
 -   Modulo verwenden
 
-### Mathematik
+### Mathematik &#10003;
 
 -   Aufrunden mit `Math.ceil()`
 -   Abrunden mit `Math.floor()`
 -   Ermitteln von Zufallszahlen mit `Math.random()`
 -   Maximum und Minimum mit `Math.max()`, `Math.min()`
 
-### Fallstricke bei Zahlen
+### Fallstricke bei Zahlen &#10003;
 
 -   Umgang mit NaN: `istNaN(<Ausdruck>)`, `typeof NaN`
 -   Sehr lange Zahlen: `e`, Rundungsfehler
 -   Umgang mit Rundungsfehlern: `Number.prototype.toFixed()`
 -   Fallstricke bei der Division: Umgang mit `Unendlichkeit`
 
-### Logisches Denken I
+### Logisches Denken I &#10003;
 
 -   Einfache Präpositionsanalyse
 -   Logische Operatoren: `&&`, `||`
 -   Logik zum Lösen von Problemen verwenden; Wie funktioniert ein Förderband? oder Wie funktioniert eine Ampel?
 
-### Boolean
+### Boolean &#10003;
 
 -   Wahrheitsgemäße und falsche Werte: falsch, undefiniert, null, 0, ''
 -   Typumwandlung: `==` vs. `===`
@@ -98,7 +98,7 @@
 -   Boolesche Invertierung mit `!`
 -   Kurzschluss-Zuweisung: Zuweisung von Variablenrückfall mit `||`
 
-### Array: Mehrere Werte unter einem Namen speichern
+### Array: Mehrere Werte unter einem Namen speichern &#10003;
 
 -   Zuweisung von Array-Literalen:
 
@@ -108,7 +108,7 @@
 -   Neuzuweisung von Array-Elementen mit eckigen Klammern
 -   `const`s und Array-Elemente
 
-### Grundlegende Array-Methoden
+### Grundlegende Array-Methoden &#10003;
 
 -   Auffinden von Elementen: `Array.prototype.indexOf(<Element>)`
 -   Hinzufügen von Elementen: `Array.prototype.push()`, `Array.prototype.unshift()`
@@ -119,17 +119,17 @@
 
 ## Programm
 
-### Einführung
+### Einführung &#10003;
 
 -   Der Ablauf eines Programms (von links nach rechts, von oben nach unten)
 
-### Logisches Denken II
+### Logisches Denken II &#10003;
 
 -   Was ist ein Algorithmus?
 -   Analysieren von Problemen: Eingabe und Ausgabe
 -   Lösungen finden: Algorithmen schreiben
 
-### Entscheidungen
+### Entscheidungen &#10003;
 
 -   Bedingte Algorithmen
 -   Die bedingte Anweisung: `if(<boolesch>){ ... }`
