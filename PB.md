@@ -137,14 +137,14 @@
 -   The default case: `else { ... }`
 -   Reading a program II (skipping unmet cases)
 
-### Block Scope
+### Block Scope &lArr;
 
 -   Code block definition: `if` example
 -   A word on indentation and readability
 -   Scope definition: difference between `var`, `let`, `const`
 -   When to use: `if` vs. ternary operator
 
-### Multiple choice
+### Multiple choice &lArr;
 
 -   Testing multiple conditions: `else if (<boolean>){ ... }`
 -   Executing code based on a value: `switch(<expression>){ ... }`
