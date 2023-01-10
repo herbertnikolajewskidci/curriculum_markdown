@@ -144,7 +144,7 @@
 -   Scope definition: difference between `var`, `let`, `const`
 -   When to use: `if` vs. ternary operator
 
-### Multiple choice &lArr;
+### Multiple choice 
 
 -   Testing multiple conditions: `else if (<boolean>){ ... }`
 -   Executing code based on a value: `switch(<expression>){ ... }`

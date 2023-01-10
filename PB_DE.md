@@ -144,7 +144,7 @@
 -   Bereichsdefinition: Unterschied zwischen `var`, `let`, `const`
 -   Wann zu verwenden: `if` vs. ternärer Operator
 
-### Multiple Choice &lArr;
+### Multiple Choice 
 
 -   Testen mehrerer Bedingungen: `else if (<boolesch>){ ... }`
 -   Ausführen von Code basierend auf einem Wert: `switch(<Ausdruck>){ ... }`
