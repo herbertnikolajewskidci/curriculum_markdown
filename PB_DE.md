@@ -137,14 +137,14 @@
 -   Der Standardfall: `else { ... }`
 -   Lesen eines Programms II (Überspringen unerfüllter Fälle)
 
-### <span style="color:green">Block-Scope &lArr; </span>
+### Block-Scope &lArr;
 
 -   Code-Block-Definition: `if` Beispiel
 -   Ein Wort zur Einrückung und Lesbarkeit
 -   Bereichsdefinition: Unterschied zwischen `var`, `let`, `const`
 -   Wann zu verwenden: `if` vs. ternärer Operator
 
-### <span style="color:blue">Multiple Choice &lArr; </span>
+### Multiple Choice &lArr;
 
 -   Testen mehrerer Bedingungen: `else if (<boolesch>){ ... }`
 -   Ausführen von Code basierend auf einem Wert: `switch(<Ausdruck>){ ... }`
