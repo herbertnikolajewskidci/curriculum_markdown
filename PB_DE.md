@@ -187,7 +187,7 @@
 
 `const <Funktionsname> = (<Parameter>) => { ... }`
 
-### Funktionsumfang
+### Funktionsgeltungsbereich
 
 -   Parameter Geltungsbereich
 -   Deklaration von Variablen in Funktionen
