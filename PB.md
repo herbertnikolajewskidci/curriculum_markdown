@@ -167,7 +167,7 @@
 
 ### Introduction
 
--   Routinen und Unterroutinen (Funktionen)
+-   Routines and Subroutines (functions)
 
 ### Calling
 
