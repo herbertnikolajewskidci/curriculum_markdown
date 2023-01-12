@@ -165,11 +165,11 @@
 
 ## Funktionen-I
 
-### Einführung &lArr;
+### Einführung &#10003;
 
 -   Routinen und Unterroutinen (Funktionen)
 
-### Aufrufen &lArr;
+### Aufrufen &#10003;
 
 -   Rückblick auf die bisher aufgerufenen Funktionen: `console.log()`, `parseInt()`, etc.
 -   Der call stack (kurze Einführung)
@@ -187,14 +187,14 @@
 
 `const <Funktionsname> = (<Parameter>) => { ... }`
 
-### Funktionsgeltungsbereich &lArr;
+### Funktionsgeltungsbereich &#10003;
 
 -   Parameter Geltungsbereich
 -   Deklaration von Variablen in Funktionen
 -   Globaler vs. lokaler Geltungsbereich: Neuzuweisung von Variablen in Funktionen
 -   Lesen eines Programms IV (Funktionen nur lesen, wenn sie aufgerufen werden)
 
-### Rückgaben und Nebeneffekte
+### Rückgaben und Nebeneffekte &lArr;
 
 -   Funktionsaufrufe als Werte: die Anweisung `return <Wert>;`
 -   Definition von Seiteneffekten: Änderung des globalen Geltungsbereichs, Rückgriff auf äußere Geltungsbereiche

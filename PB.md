@@ -165,11 +165,11 @@
 
 ## Functions-I
 
-### Introduction &lArr;
+### Introduction &#10003;
 
 -   Routines and Subroutines (functions)
 
-### Calling &lArr;
+### Calling &#10003;
 
 -   Review of functions called so far: `console.log()`, `parseInt()`, etc.
 -   The call stack (brief introduction)
@@ -187,7 +187,7 @@
 
 `const <function name> = (<parameters>) => { ... }`
 
-### Function Scope &lArr;
+### Function Scope &#10003;
 
 -   Parameters scope
 -   Declaring variables in functions
@@ -204,7 +204,7 @@
 
 `const <function name> = (<parameters>) => <return value>`
 
-### Advanced Parameters
+### Advanced Parameters &lArr;
 
 -   Default parameter values:
 
