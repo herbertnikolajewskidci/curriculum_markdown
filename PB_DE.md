@@ -144,13 +144,13 @@
 -   Bereichsdefinition: Unterschied zwischen `var`, `let`, `const`
 -   Wann zu verwenden: `if` vs. ternärer Operator
 
-### Multiple Choice &lArr;
+### Multiple Choice &#10003;
 
 -   Testen mehrerer Bedingungen: `else if (<boolesch>){ ... }`
 -   Ausführen von Code basierend auf einem Wert: `switch(<Ausdruck>){ ... }`
 -   Wann zu verwenden: `switch` vs. `else if`
 
-### Numerische Wiederholung &lArr;
+### Numerische Wiederholung &#10003;
 
 -   Wiederholung von Codeblöcken eine bestimmte Anzahl von Malen:
 
@@ -165,17 +165,17 @@
 
 ## Funktionen-I
 
-### Einführung
+### Einführung &lArr;
 
 -   Routinen und Unterroutinen (Funktionen)
 
-### Aufrufen
+### Aufrufen &lArr;
 
 -   Rückblick auf die bisher aufgerufenen Funktionen: `console.log()`, `parseInt()`, etc.
 -   Der call stack (kurze Einführung)
 -   Funktionsargumente
 
-### Deklarieren
+### Deklarieren &lArr;
 
 -   Deklarieren einer Funktion: `function <Name>(<Parameter>){ ... }`
 -   Funktionsparameter: Benennung und Reihenfolge
@@ -187,7 +187,7 @@
 
 `const <Funktionsname> = (<Parameter>) => { ... }`
 
-### Funktionsgeltungsbereich
+### Funktionsgeltungsbereich &lArr;
 
 -   Parameter Geltungsbereich
 -   Deklaration von Variablen in Funktionen

@@ -144,13 +144,13 @@
 -   Scope definition: difference between `var`, `let`, `const`
 -   When to use: `if` vs. ternary operator
 
-### Multiple choice &lArr;
+### Multiple choice &#10003;
 
 -   Testing multiple conditions: `else if (<boolean>){ ... }`
 -   Executing code based on a value: `switch(<expression>){ ... }`
 -   When to use: `switch` vs. `else if`
 
-### Numerical Repetition &lArr;
+### Numerical Repetition &#10003;
 
 -   Repeating code blocks a set number of times:
 
@@ -165,17 +165,17 @@
 
 ## Functions-I
 
-### Introduction
+### Introduction &lArr;
 
 -   Routines and Subroutines (functions)
 
-### Calling
+### Calling &lArr;
 
 -   Review of functions called so far: `console.log()`, `parseInt()`, etc.
 -   The call stack (brief introduction)
 -   Function arguments
 
-### Declaring
+### Declaring &lArr;
 
 -   Declaring a function: `function <name>(<parameters>){ ... }`
 -   Function parameters: Naming and order
@@ -187,7 +187,7 @@
 
 `const <function name> = (<parameters>) => { ... }`
 
-### Function Scope
+### Function Scope &lArr;
 
 -   Parameters scope
 -   Declaring variables in functions
