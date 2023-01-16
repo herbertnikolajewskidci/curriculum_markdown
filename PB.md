@@ -194,7 +194,7 @@
 -   Global vs. Local scope: Variable reassignment in functions
 -   Reading a program IV (reading functions only when they are called)
 
-### Returns and side effects
+### Returns and side effects &lArr;
 
 -   Function calls as values: the `return <value>;` statement
 -   Side effects definition: Changing the global scope, relying on outer scopes
