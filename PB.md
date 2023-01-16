@@ -204,7 +204,7 @@
 
 `const <function name> = (<parameters>) => <return value>`
 
-### Advanced Parameters &lArr;
+### Advanced Parameters
 
 -   Default parameter values:
 
