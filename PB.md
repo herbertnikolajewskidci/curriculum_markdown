@@ -175,7 +175,7 @@
 -   The call stack (brief introduction)
 -   Function arguments
 
-### Declaring &lArr;
+### Declaring &#10003;
 
 -   Declaring a function: `function <name>(<parameters>){ ... }`
 -   Function parameters: Naming and order
@@ -194,7 +194,7 @@
 -   Global vs. Local scope: Variable reassignment in functions
 -   Reading a program IV (reading functions only when they are called)
 
-### Returns and side effects &lArr;
+### Returns and side effects &#10003;
 
 -   Function calls as values: the `return <value>;` statement
 -   Side effects definition: Changing the global scope, relying on outer scopes
@@ -204,7 +204,7 @@
 
 `const <function name> = (<parameters>) => <return value>`
 
-### Advanced Parameters
+### Advanced Parameters &lArr;
 
 -   Default parameter values:
 
