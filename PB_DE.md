@@ -175,7 +175,7 @@
 -   Der call stack (kurze Einführung)
 -   Funktionsargumente
 
-### Deklarieren &lArr;
+### Deklarieren &#10003;
 
 -   Deklarieren einer Funktion: `function <Name>(<Parameter>){ ... }`
 -   Funktionsparameter: Benennung und Reihenfolge
@@ -194,7 +194,7 @@
 -   Globaler vs. lokaler Geltungsbereich: Neuzuweisung von Variablen in Funktionen
 -   Lesen eines Programms IV (Funktionen nur lesen, wenn sie aufgerufen werden)
 
-### Rückgaben und Nebeneffekte &lArr;
+### Rückgaben und Nebeneffekte &#10003;
 
 -   Funktionsaufrufe als Werte: die Anweisung `return <Wert>;`
 -   Definition von Seiteneffekten: Änderung des globalen Geltungsbereichs, Rückgriff auf äußere Geltungsbereiche
@@ -204,7 +204,7 @@
 
 `const <Funktionsname> = (<Parameter>) => <Rückgabewert>`
 
-### Erweiterte Parameter
+### Erweiterte Parameter &lArr;
 
 -   Standard-Parameterwerte:
 
