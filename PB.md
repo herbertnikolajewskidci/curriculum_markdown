@@ -221,7 +221,7 @@
 
 -   Variables and relation to memory
 
-Objects: Saving multiple variables in one namespace
+### Objects: Saving multiple variables in one namespace
 
 -   The type of an array: arrays are specific objects, `Array.isArray()`
 -   Object literals: Property definition
