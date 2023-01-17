@@ -221,7 +221,7 @@
 
 -   Variablen und Beziehung zum Speicher
 
-Objekte: Speichern von mehreren Variablen in einem "namspace"
+### Objekte: Speichern von mehreren Variablen in einem "namspace"
 
 -   Der Typ eines Arrays: Arrays sind spezifische Objekte, `Array.isArray()`
 -   Object literals: Definition von Eigenschaften
