@@ -204,7 +204,7 @@
 
 `const <Funktionsname> = (<Parameter>) => <Rückgabewert>`
 
-### Erweiterte Parameter &lArr;
+### Fortgeschrittene Parameter #10003;
 
 -   Standard-Parameterwerte:
 
@@ -217,11 +217,11 @@
 
 ## Data Structur
 
-### Einleitung
+### Einleitung &lArr;
 
 -   Variablen und Beziehung zum Speicher
 
-### Objekte: Speichern von mehreren Variablen in einem "namspace"
+### Objekte: Speichern von mehreren Variablen in einem "namspace" &lArr;
 
 -   Der Typ eines Arrays: Arrays sind spezifische Objekte, `Array.isArray()`
 -   Object literals: Definition von Eigenschaften

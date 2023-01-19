@@ -204,7 +204,7 @@
 
 `const <function name> = (<parameters>) => <return value>`
 
-### Advanced Parameters &lArr;
+### Advanced Parameters #10003;
 
 -   Default parameter values:
 
@@ -217,11 +217,11 @@
 
 ## Data Structur
 
-### Introduction
+### Introduction &lArr;
 
 -   Variables and relation to memory
 
-### Objects: Saving multiple variables in one namespace
+### Objects: Saving multiple variables in one namespace &lArr;
 
 -   The type of an array: arrays are specific objects, `Array.isArray()`
 -   Object literals: Property definition
