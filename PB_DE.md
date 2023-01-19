@@ -204,7 +204,7 @@
 
 `const <Funktionsname> = (<Parameter>) => <Rückgabewert>`
 
-### Fortgeschrittene Parameter #10003;
+### Fortgeschrittene Parameter &#10003;
 
 -   Standard-Parameterwerte:
 
