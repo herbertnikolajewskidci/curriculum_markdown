@@ -135,7 +135,6 @@ console.log(newRef); // { Name: 'John', Alter: 30 }
 
 console.log(newRef); // { Name: 'John', Alter: 30 }
 
-// Garbage Collectors kommen zur Rettung.
 
 // ---------##---------
 
