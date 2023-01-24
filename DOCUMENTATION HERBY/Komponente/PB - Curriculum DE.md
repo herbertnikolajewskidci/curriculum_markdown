@@ -233,14 +233,14 @@
 -   Zugriff auf Eigenschaften mit Klammerschreibweise (keine Variablen)
 -   Zugriff auf Eigenschaften mit Punktschreibweise
 
-### Objekt Scope ⬅️👀
+### Objekt Scope ✔️
 
 -   Definition von Methoden: Methoden sind Eigenschaften mit Funktionswerten
 -   Anwendung von Methoden: Überblick über die bisher verwendeten Methoden
 -   Erstellen von Methoden
 -   Objektliteraler Kontext: Methoden, `this` und `Function.prototype.bind()`
 
-### Conversion and iterations
+### Conversion and iterations ✔️
 
 -   Iteration über Objekte: `for(let <property name> in <object name>){ ... }`
 -   Eigenschaftsnamen in Array: `Object.keys(<object>)`
@@ -248,7 +248,7 @@
 -   Zugriff auf Eigenschaften mit Klammerschreibweise (w. vars)
 -   Eigenschaftswerte in Array: `Object.values(<object>)`
 
-### Clones vs. References
+### Clones vs. References ⬅️👀
 
 -   Einfache Werte sind immer Klone: String, Zahl, Boolescher Wert
 -   Objekte sind standardmäßig Referenzen: Array und Objektliterale

@@ -117,7 +117,7 @@ const personB = {       // verschachteltes Objekt
 };
 ```
 ### Hier weiter
-```
+```js
 // Finde eine Funktion in lodash, die beim Vergleich der beiden Objekte true zurückgibt
 console.log(personA === personB);   // false
 

@@ -1,52 +1,52 @@
 ```js
 console.log(Math.max(3, 5, 1)); // 5
 
-// Now let’s say we have an array [3, 5, 1]. How do we call Math.max with it?
+// Nehmen wir nun an, wir haben ein Array [3, 5, 1]. Wie können wir Math.max damit aufrufen?
 
-// Passing it “as is” won’t work, because Math.max expects a list of numeric arguments, not a single array:
+// Die Übergabe "so wie sie ist" wird nicht funktionieren, da Math.max eine Liste numerischer Argumente erwartet, nicht ein einzelnes Array:
 
 const arr = [3, 5, 1];
 
 console.log(Math.max(arr)); // NaN
 
-// And surely we can’t manually list items in the code Math.max(arr[0], arr[1], arr[2]), because we may be unsure how many there are. 
-// As our script executes, there could be a lot, or there could be none. And that would get ugly.
+// Und sicherlich können wir die Elemente im Code nicht manuell auflisten Math.max(arr[0], arr[1], arr[2]), da wir nicht wissen, wie viele es sind. 
+// Während unser Skript ausgeführt wird, könnten es viele sein, oder auch keine. Und das würde hässlich werden.
 
-// Spread syntax to the rescue!
+// Die Spread-Syntax ist die Rettung!
 
 // ---------------------------------------------- //
 
-// Spread syntax looks similar to rest parameters, also using ..., but does quite the opposite.
-// When ...arr is used in the function call, it “expands” an iterable object arr into the list of arguments.
-// The spread syntax operates only on iterables.
+// Die Spread-Syntax sieht ähnlich aus wie Rest-Parameter und verwendet ebenfalls ..., bewirkt aber genau das Gegenteil.
+// Wenn ...arr im Funktionsaufruf verwendet wird, "expandiert" sie ein iterierbares Objekt arr in die Liste der Argumente.
+// Die Spread-Syntax arbeitet nur mit Iterables.
 
 const numbers = [3, 5, 1];
 
-console.log(Math.max(...numbers)); // 5 (spread turns array into a list of arguments)
+console.log(Math.max(...numbers)); // 5 (spread verwandelt ein array in eine Liste von Argumenten)
 
 // ---------------------------------------------- //
 
-// **NOTE*** Very very very commonly the spread syntax is referred to just as 
-// the "spread operator" but MDN calls the three dots the "spread syntax", and
-// it's included in the list of operators!
+// **HINWEIS*** Sehr, sehr häufig wird die Spread-Syntax einfach als 
+// "Spreadoperator" bezeichnet, aber MDN bezeichnet die drei Punkte die "Spreadsyntax", und
+// er ist in der Liste der Operatoren enthalten!
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 
 // ---------------------------------------------- //
-// !!!The spread syntax operates on iterables or objects
+// !!!Die Spread-Syntax operiert mit Iterables oder Objekten
 
-// iterables
-// strings,          array
-// "abcd",  [1, 2, 3, true, false]
+// Iterables
+// Zeichenketten, Array
+// "abcd", [1, 2, 3, wahr, falsch]
 //
-// object 
-//{firstName: "John", lastName: "Doe"}
+// Objekt 
+//{Vorname: "John", Nachname: "Doe"}
 
 // noniterables:
-// boolean    number      null      undefined
-// true        245        null      undefined
+// boolean number null undefined
+// true 245 null undefined
 // ---------------------------------------------- //
 
-// We also can pass multiple iterables this way:
+// Wir können auf diese Weise auch mehrere Iterables übergeben:
 let arr1 = [1, -2, 3, 4];
 let arr2 = [8, 3, -8, 1];
 
@@ -54,7 +54,7 @@ console.log(Math.max(...arr1, ...arr2)); // 8
 
 // ---------------------------------------------- //
 
-// We can even combine the spread syntax with normal values:
+// Wir können die Spread-Syntax auch mit normalen Werten kombinieren:
 arr1 = [1, -2, 3, 4];
 arr2 = [8, 3, -8, 1];
 
@@ -62,7 +62,7 @@ console.log(Math.max(1, ...arr1, 2, ...arr2, 25)); // 25
 
 // ---------------------------------------------- //
 
-// Also, the spread syntax can be used to merge arrays:
+// Auch die Spread-Syntax kann verwendet werden, um Arrays zusammenzuführen:
 
 const arr3 = [3, 5, 1];
 const arr4 = [8, 9, 15];
@@ -70,62 +70,62 @@ const arr4 = [8, 9, 15];
 const mergedArray = [...arr3, ...arr4];
 const mergedArray2 = [0, ...arr3, 2, ...arr4];
 
-console.log(mergedArray);   // [ 3, 5, 1, 8, 9, 15 ]
-console.log(mergedArray2);  // [ 0, 3, 5, 1, 2, 8, 9, 15 ]
+console.log(mergedArray); // [ 3, 5, 1, 8, 9, 15 ]
+console.log(mergedArray2); // [ 0, 3, 5, 1, 2, 8, 9, 15 ]
 
 const clonedArr3 = arr3;
-console.log(clonedArr3);    // [ 3, 5, 1 ]
+console.log(clonedArr3); // [ 3, 5, 1 ]
 
 // ---------------------------------------------- //
 
-// In the examples above we used an array to demonstrate the spread syntax, but any iterable will do.
+// In den obigen Beispielen haben wir zur Veranschaulichung der Spreadsyntax ein Array verwendet, aber jede beliebige Iterationsform ist geeignet.
 
-// For instance, here we use the spread syntax to turn the string into array of characters:
+// Hier verwenden wir zum Beispiel die Spread-Syntax, um die Zeichenkette in ein Array von Zeichen zu verwandeln:
 
-const str = "Hello";
+const str = "Hallo";
 
 console.log([...str]); // H,e,l,l,o
 
-// OR
+// ODER
 
-// let spreadStr = ...str;  // error!!
+// let spreadStr = ...str; // Fehler!!
 const spreadStr = [...str];
-console.log(spreadStr);    // [ 'H', 'e', 'l', 'l', 'o' ]
+console.log(spreadStr); // [ 'H', 'e', 'l', 'l', 'o' ]
 
 const spreadStr2 = { ...str };
-console.log(spreadStr2);    // { '0': 'H', '1': 'e', '2': 'l', '3': 'l', '4': 'o' }
+console.log(spreadStr2); // { '0': 'H', '1': 'e', '2': 'l', '3': 'l', '4': 'o' }
 
-// won't work!
+// wird nicht funktionieren!
 const spreadStr3 = "...str";
-console.log(spreadStr3);   // ...str
+console.log(spreadStr3); // ...str
 
 // ---------------------------------------------- //
 function iAmAFunction(param1, param2, ...rest) {
-  console.log(rest);              // [ 'a', 'nice', 'day', '!' ]
+  console.log(rest); // [ 'a', 'nice', 'day', '!' ]
 }
 
-iAmAFunction("Hello", "have", "a", "nice", "day", "!");
+iAmAFunction("Hallo", "haben", "a", "schön", "Tag", "!");
 
 // ---------------------------------------------- //
-// 1. create a function that returns the sum of all of it's arguments (no matter how many arguments there are)
+// 1. Erstellen Sie eine Funktion, die die Summe aller Argumente zurückgibt (unabhängig davon, wie viele Argumente es gibt)
 
 
-function sumAll(...num) {   // rest parameter is passed in the argument
+function sumAll(...num) { // Restparameter wird im Argument übergeben
   let sum = 0;
   console.log("num arr spreaded in the function call", num);
-  // num arr spreaded in the function call [ 2, 4, 6, 8, 21, 456 ]
+  // num arr verteilt im Funktionsaufruf [ 2, 4, 6, 8, 21, 456 ]
 
   for (let i = 0; i < num.length; i++) {
     sum += num[i];
   }
   // console.log(args);  
-  return sum;
+  Summe zurückgeben;
 }
 
 const myNumbers = [2, 4, 6, 8, 21, 456];
 const myNumbers3 = [2, 4, 6, 8, 21, 456, 645];
 
-// using spread syntax in a function call to pass an array of numbers
-console.log(sumAll(...myNumbers));      // 497
-console.log(sumAll(...myNumbers, ...myNumbers3))      // 1639
+// Die  Verwendung der Spread-Syntax in einem Funktionsaufruf zur Übergabe eines Arrays von Zahlen
+console.log(sumAll(...myNumbers)); // 497
+console.log(sumAll(...myNumbers, ...myNumbers3)) // 1639
 ```

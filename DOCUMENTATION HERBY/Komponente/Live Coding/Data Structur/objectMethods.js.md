@@ -94,7 +94,11 @@ const person = {
 console.log(person.fullName()); // John Doe
 
 // ---------##---------
+```
 
+### Ab hier weiter
+
+```js
 const user2 = {
     Name: "John",
     age: 30,

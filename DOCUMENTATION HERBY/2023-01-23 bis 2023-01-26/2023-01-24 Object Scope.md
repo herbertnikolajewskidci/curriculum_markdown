@@ -2,7 +2,7 @@
 
 ## Vorschau auf die/den Woche/Tag:
 
-[[PB - Curriculum DE#Objekt Scope ⬅️👀]]
+[[PB - Curriculum DE#Objekt Scope ✔️]]
 
 ## Wiederholung Vortag  - 📖
 
@@ -18,7 +18,8 @@
 ## Hauptthema - 💻
 
 ### Curriculum 📝
-![[PB - Curriculum DE#Objekt Scope ⬅️👀]]
+![[PB - Curriculum DE#Objekt Scope ✔️]]
+![[PB - Curriculum DE#Conversion and iterations ✔️]]
 
 
 ### Live Coding -  (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧

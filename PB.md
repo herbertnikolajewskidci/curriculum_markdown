@@ -231,14 +231,14 @@
 -   Accessing properties with bracket notation (no variables)
 -   Accessing properties with dot notation
 
-### Object Scope ⬅️👀
+### Object Scope ✔️
 
 -   Methods definition: Methods are properties with function values
 -   Using methods: Review of used methods so far
 -   Creating methods
 -   Object literal context: methods, `this` and `Function.prototype.bind()`
 
-### Conversion and iterations
+### Conversion and iterations ✔️
 
 -   Iterating over objects: `for(let <property name> in <object name>){ ... }`
 -   Property names to array: `Object.keys(<object>)`
@@ -246,7 +246,7 @@
 -   Accessing properties with bracket notation (w. vars)
 -   Property values to array: `Object.values(<object>)`
 
-### Clones vs. References
+### Clones vs. References⬅️👀
 
 -   Simple values are always clones: String, Number, Boolean
 -   Objects are references by default: Array and object literals
