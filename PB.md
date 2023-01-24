@@ -1,12 +1,12 @@
 ## Language
 
-### Introduction &#10003;
+### Introduction ✔️
 
 -   What is a programming language?
 -   Javascript or ECMAscript? (brief history of JS)
 -   Interpreted languages vs. compiled languages (quick overview)
 
-### Variables: Running js files with node &#10003;
+### Variables: Running js files with node ✔️
 
 -   Variables: introducing `var`, `let`
 -   Constants: introducing `const`
@@ -14,28 +14,28 @@
 -   A word about naming conventions: camelCase vs. snake_case
 -   Syntax debugging II: Undeclared variables
 
-### Data Types: An introduction &#10003;
+### Data Types: An introduction ✔️
 
 -   Primitive Data Types: Numbers, Strings, Boolean, Null and Undefined
 -   Empty variables: `null` vs. `undefined`.
 -   Objects: Arrays and Objects
 -   Data type: the unary operator `typeof`
 
-### Statements &#10003;
+### Statements ✔️
 
 -   Definition of statement: The semicolon `;`
 -   Hello world: `console.log(<expression>)`
 -   Comments: `//`, `/* */`
 -   Syntax Debugging I: Unclosed parentheses
 
-### Expressions &#10003;
+### Expressions ✔️
 
 -   String expressions: single quotes, double quotes, concatenation
 -   Mathematical expressions: +, -, \*, /, %
--   Boolean expressions: comparison operators (===, !==, >=, <=, >, <)
+-   Boolean expressions: comparison operators (`===, !==, >=, <=, >, <`)
 -   Conditional expressions: the ternary operator (combining the examples above)
 
-### Changing variables &#10003;
+### Changing variables ✔️
 
 -   Variable reassignment: `=`, `+=`, `-=`, string accumulation
 -   Counting iterations: the counter variable, `++`, `--`
@@ -43,7 +43,7 @@
 -   Conditional assignment with the ternary operator
 -   Syntax debugging III: Reassigning constants
 
-### String &#10003;
+### String ✔️
 
 -   Escaping special chars: `\'`, `\`, `\n`
 -   Syntax debugging IV: Strings and quotes
@@ -53,7 +53,7 @@
 -   Getting a character in a string: bracket notation
 -   Syntax debugging VI: Unclosed brackets
 
-### Basic String Methods &#10003;
+### Basic String Methods ✔️
 
 -   Converting case with:
 
@@ -63,34 +63,34 @@
 -   Checking if a string is inside another string: `String.prototype.includes()`
 -   Removing padding spaces: `String.prototype.trim()`
 
-### Number &#10003;
+### Number ✔️
 
 -   Combining strings and numbers with +
 -   Integers vs. Floats
 -   Converting strings into Numbers: `parseInt()`, `parseFloat()`
 -   Using modulo
 
-### Math &#10003;
+### Math ✔️
 
 -   Rounding up with `Math.ceil()`
 -   Rounding down with `Math.floor()`
 -   Getting random numbers with `Math.random()`
 -   Maximum and minimum with `Math.max()`, `Math.min()`
 
-### Number Pitfalls &#10003;
+### Number Pitfalls ✔️
 
 -   Dealing with NaN: `isNaN(<expression>)`, `typeof NaN`
 -   Very long numbers: `e`, rounding errors
 -   Dealing with rounding errors: `Number.prototype.toFixed()`
 -   Division pitfalls: Dealing with `Infinity`
 
-### Logical Thinking I &#10003;
+### Logical Thinking I ✔️
 
 -   Simple preposition analysis
 -   Logical operators: `&&`, `||`
 -   Using logic to solve problems; How does a converyor belt work? or How do traffic lights work?
 
-### Boolean &#10003;
+### Boolean ✔️
 
 -   Truthy and falsy values: false, undefined, null, 0, ''
 -   Type conversion: `==` vs. `===`
@@ -98,7 +98,7 @@
 -   Boolean inversion with `!`
 -   Short circuit assignment: Assigning variable fallback with `||`
 
-### Array: Saving multiple values in one name &#10003;
+### Array: Saving multiple values in one name ✔️
 
 -   Assigning array literals:
 
@@ -108,7 +108,7 @@
 -   Re-assigning array items with square brackets
 -   `const`s and array items
 
-### Basic Array methods &#10003;
+### Basic Array methods ✔️
 
 -   Finding Items: `Array.prototype.indexOf(<item>)`
 -   Adding items: `Array.prototype.push()`, `Array.prototype.unshift()`
@@ -119,17 +119,17 @@
 
 ## Programm
 
-### Introduction &#10003;
+### Introduction ✔️
 
 -   The flow of a program (left to right, top to bottom)
 
-### Logical Thinking II &#10003;
+### Logical Thinking II ✔️
 
 -   What is an Algorithm?
 -   Analyzing problems: Input and Output
 -   Coming up with solutions: writing algorithms
 
-### Decisions &#10003;
+### Decisions ✔️
 
 -   Conditional algorithms
 -   The conditional statement: `if(<boolean>){ ... }`
@@ -137,20 +137,20 @@
 -   The default case: `else { ... }`
 -   Reading a program II (skipping unmet cases)
 
-### Block Scope &#10003;
+### Block Scope ✔️
 
 -   Code block definition: `if` example
 -   A word on indentation and readability
 -   Scope definition: difference between `var`, `let`, `const`
 -   When to use: `if` vs. ternary operator
 
-### Multiple choice &#10003;
+### Multiple choice ✔️
 
 -   Testing multiple conditions: `else if (<boolean>){ ... }`
 -   Executing code based on a value: `switch(<expression>){ ... }`
 -   When to use: `switch` vs. `else if`
 
-### Numerical Repetition &#10003;
+### Numerical Repetition ✔️
 
 -   Repeating code blocks a set number of times:
 
@@ -165,17 +165,17 @@
 
 ## Functions-I
 
-### Introduction &#10003;
+### Introduction ✔️
 
 -   Routines and Subroutines (functions)
 
-### Calling &#10003;
+### Calling ✔️
 
 -   Review of functions called so far: `console.log()`, `parseInt()`, etc.
 -   The call stack (brief introduction)
 -   Function arguments
 
-### Declaring &#10003;
+### Declaring ✔️
 
 -   Declaring a function: `function <name>(<parameters>){ ... }`
 -   Function parameters: Naming and order
@@ -187,14 +187,14 @@
 
 `const <function name> = (<parameters>) => { ... }`
 
-### Function Scope &#10003;
+### Function Scope ✔️
 
 -   Parameters scope
 -   Declaring variables in functions
 -   Global vs. Local scope: Variable reassignment in functions
 -   Reading a program IV (reading functions only when they are called)
 
-### Returns and side effects &#10003;
+### Returns and side effects ✔️
 
 -   Function calls as values: the `return <value>;` statement
 -   Side effects definition: Changing the global scope, relying on outer scopes
@@ -204,7 +204,7 @@
 
 `const <function name> = (<parameters>) => <return value>`
 
-### Advanced Parameters &#10003;
+### Advanced Parameters ✔️
 
 -   Default parameter values:
 
@@ -217,11 +217,11 @@
 
 ## Data Structur
 
-### Introduction &lArr;
+### Introduction ✔️
 
 -   Variables and relation to memory
 
-### Objects: Saving multiple variables in one namespace &lArr;
+### Objects: Saving multiple variables in one namespace ✔️
 
 -   The type of an array: arrays are specific objects, `Array.isArray()`
 -   Object literals: Property definition
@@ -231,7 +231,7 @@
 -   Accessing properties with bracket notation (no variables)
 -   Accessing properties with dot notation
 
-### Object Scope
+### Object Scope ⬅️👀
 
 -   Methods definition: Methods are properties with function values
 -   Using methods: Review of used methods so far
