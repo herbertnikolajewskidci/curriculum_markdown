@@ -1,12 +1,12 @@
 ## Language
 
-### Einführung &#10003;
+### Einführung ✔️
 
 -   Was ist eine Programmiersprache?
 -   Javascript oder ECMAscript? (kurze Geschichte von JS)
 -   Interpretierte Sprachen vs. kompilierte Sprachen (kurzer Überblick)
 
-### Variablen: Js-Dateien mit Node ausführen &#10003;
+### Variablen: Js-Dateien mit Node ausführen ✔️
 
 -   Variablen: Einführung von `var`, `let`
 -   Konstanten: Einführung in `const`
@@ -14,28 +14,28 @@
 -   Ein Wort zu Namenskonventionen: camelCase vs. snake_case
 -   Syntax-Debugging II: Nicht deklarierte Variablen
 
-### Datentypen: Eine Einführung &#10003;
+### Datentypen: Eine Einführung ✔️
 
 -   Primitive Datentypen: Zahlen, Zeichenketten, Boolesche, Null und Undefiniert
 -   Leere Variablen: `null` vs. `undefined`.
 -   Objekte: Arrays und Objekte
 -   Datentyp: der unäre Operator `typeof`
 
-### Anweisungen &#10003;
+### Anweisungen ✔️
 
 -   Definition einer Anweisung: Das Semikolon `;`
 -   Hallo Welt: `Konsole.log(<Ausdruck>)`
 -   Kommentare: `//`, `/* */`
 -   Syntax Debugging I: Ungeschlossene Klammern
 
-### Ausdrücke &#10003;
+### Ausdrücke ✔️
 
 -   String-Ausdrücke: einfache Anführungszeichen, doppelte Anführungszeichen, Verkettung
 -   Mathematische Ausdrücke: +, -, \*, /, %
--   Boolesche Ausdrücke: Vergleichsoperatoren (===, !==, >=, <=, >, <)
+-   Boolesche Ausdrücke: Vergleichsoperatoren (`===, !==, >=, <=, >, <`)
 -   Bedingte Ausdrücke: der ternäre Operator (Kombination der obigen Beispiele)
 
-### Ändern von Variablen &#10003;
+### Ändern von Variablen ✔️
 
 -   Neuzuweisung von Variablen: `=`, `+=`, `-=`, Stringakkumulation
 -   Zählen von Iterationen: die Zählervariable, `++`, `--`
@@ -43,7 +43,7 @@
 -   Bedingte Zuweisung mit dem ternären Operator
 -   Syntax-Debugging III: Neuzuweisung von Konstanten
 
-### Zeichenkette &#10003;
+### Zeichenkette ✔️
 
 -   Umgehung von Sonderzeichen: `\'`, `\`, `\n`
 -   Syntaxfehlersuche IV: Zeichenketten und Anführungszeichen
@@ -53,7 +53,7 @@
 -   Ermitteln eines Zeichens in einer Zeichenkette: Klammerschreibweise
 -   Syntaxfehlersuche VI: Nicht geschlossene Klammern
 
-### Grundlegende String-Methoden &#10003;
+### Grundlegende String-Methoden ✔️
 
 -   Groß- und Kleinschreibung umwandeln mit:
 
@@ -63,34 +63,34 @@
 -   Prüfen, ob eine Zeichenkette innerhalb einer anderen Zeichenkette liegt: `String.prototype.includes()`
 -   Entfernen von Leerzeichen: `String.prototype.trim()`
 
-### Zahl &#10003;
+### Zahl ✔️
 
 -   Kombinieren von Strings und Zahlen mit +
 -   Ganzzahlen vs. Fließkommazahlen
 -   Konvertieren von Strings in Zahlen: `parseInt()`, `parseFloat()`
 -   Modulo verwenden
 
-### Mathematik &#10003;
+### Mathematik ✔️
 
 -   Aufrunden mit `Math.ceil()`
 -   Abrunden mit `Math.floor()`
 -   Ermitteln von Zufallszahlen mit `Math.random()`
 -   Maximum und Minimum mit `Math.max()`, `Math.min()`
 
-### Fallstricke bei Zahlen &#10003;
+### Fallstricke bei Zahlen ✔️
 
 -   Umgang mit NaN: `istNaN(<Ausdruck>)`, `typeof NaN`
 -   Sehr lange Zahlen: `e`, Rundungsfehler
 -   Umgang mit Rundungsfehlern: `Number.prototype.toFixed()`
 -   Fallstricke bei der Division: Umgang mit `Unendlichkeit`
 
-### Logisches Denken I &#10003;
+### Logisches Denken I ✔️
 
 -   Einfache Präpositionsanalyse
 -   Logische Operatoren: `&&`, `||`
 -   Logik zum Lösen von Problemen verwenden; Wie funktioniert ein Förderband? oder Wie funktioniert eine Ampel?
 
-### Boolean &#10003;
+### Boolean ✔️
 
 -   Wahrheitsgemäße und falsche Werte: falsch, undefiniert, null, 0, ''
 -   Typumwandlung: `==` vs. `===`
@@ -98,7 +98,7 @@
 -   Boolesche Invertierung mit `!`
 -   Kurzschluss-Zuweisung: Zuweisung von Variablenrückfall mit `||`
 
-### Array: Mehrere Werte unter einem Namen speichern &#10003;
+### Array: Mehrere Werte unter einem Namen speichern ✔️
 
 -   Zuweisung von Array-Literalen:
 
@@ -108,7 +108,7 @@
 -   Neuzuweisung von Array-Elementen mit eckigen Klammern
 -   `const`s und Array-Elemente
 
-### Grundlegende Array-Methoden &#10003;
+### Grundlegende Array-Methoden ✔️
 
 -   Auffinden von Elementen: `Array.prototype.indexOf(<Element>)`
 -   Hinzufügen von Elementen: `Array.prototype.push()`, `Array.prototype.unshift()`
@@ -119,17 +119,17 @@
 
 ## Programm
 
-### Einführung &#10003;
+### Einführung ✔️
 
 -   Der Ablauf eines Programms (von links nach rechts, von oben nach unten)
 
-### Logisches Denken II &#10003;
+### Logisches Denken II ✔️
 
 -   Was ist ein Algorithmus?
 -   Analysieren von Problemen: Eingabe und Ausgabe
 -   Lösungen finden: Algorithmen schreiben
 
-### Entscheidungen &#10003;
+### Entscheidungen ✔️
 
 -   Bedingte Algorithmen
 -   Die bedingte Anweisung: `if(<boolesch>){ ... }`
@@ -137,20 +137,20 @@
 -   Der Standardfall: `else { ... }`
 -   Lesen eines Programms II (Überspringen unerfüllter Fälle)
 
-### Block-Scope &#10003;
+### Block-Scope ✔️
 
 -   Code-Block-Definition: `if` Beispiel
 -   Ein Wort zur Einrückung und Lesbarkeit
 -   Bereichsdefinition: Unterschied zwischen `var`, `let`, `const`
 -   Wann zu verwenden: `if` vs. ternärer Operator
 
-### Multiple Choice &#10003;
+### Multiple Choice ✔️
 
 -   Testen mehrerer Bedingungen: `else if (<boolesch>){ ... }`
 -   Ausführen von Code basierend auf einem Wert: `switch(<Ausdruck>){ ... }`
 -   Wann zu verwenden: `switch` vs. `else if`
 
-### Numerische Wiederholung &#10003;
+### Numerische Wiederholung ✔️
 
 -   Wiederholung von Codeblöcken eine bestimmte Anzahl von Malen:
 
@@ -165,17 +165,17 @@
 
 ## Funktionen-I
 
-### Einführung &#10003;
+### Einführung ✔️
 
 -   Routinen und Unterroutinen (Funktionen)
 
-### Aufrufen &#10003;
+### Aufrufen ✔️
 
 -   Rückblick auf die bisher aufgerufenen Funktionen: `console.log()`, `parseInt()`, etc.
 -   Der call stack (kurze Einführung)
 -   Funktionsargumente
 
-### Deklarieren &#10003;
+### Deklarieren ✔️
 
 -   Deklarieren einer Funktion: `function <Name>(<Parameter>){ ... }`
 -   Funktionsparameter: Benennung und Reihenfolge
@@ -187,14 +187,14 @@
 
 `const <Funktionsname> = (<Parameter>) => { ... }`
 
-### Funktionsgeltungsbereich &#10003;
+### Funktionsgeltungsbereich ✔️
 
 -   Parameter Geltungsbereich
 -   Deklaration von Variablen in Funktionen
 -   Globaler vs. lokaler Geltungsbereich: Neuzuweisung von Variablen in Funktionen
 -   Lesen eines Programms IV (Funktionen nur lesen, wenn sie aufgerufen werden)
 
-### Rückgaben und Nebeneffekte &#10003;
+### Rückgaben und Nebeneffekte ✔️
 
 -   Funktionsaufrufe als Werte: die Anweisung `return <Wert>;`
 -   Definition von Seiteneffekten: Änderung des globalen Geltungsbereichs, Rückgriff auf äußere Geltungsbereiche
@@ -204,7 +204,7 @@
 
 `const <Funktionsname> = (<Parameter>) => <Rückgabewert>`
 
-### Fortgeschrittene Parameter &#10003;
+### Fortgeschrittene Parameter ✔️
 
 -   Standard-Parameterwerte:
 
@@ -217,11 +217,11 @@
 
 ## Data Structur
 
-### Einleitung &lArr;
+### Einleitung ✔️
 
 -   Variablen und Beziehung zum Speicher
 
-### Objekte: Speichern von mehreren Variablen in einem "namspace" &lArr;
+### Objekte: Speichern von mehreren Variablen in einem "namspace" ✔️
 
 -   Der Typ eines Arrays: Arrays sind spezifische Objekte, `Array.isArray()`
 -   Object literals: Definition von Eigenschaften
@@ -231,7 +231,7 @@
 -   Zugriff auf Eigenschaften mit Klammerschreibweise (keine Variablen)
 -   Zugriff auf Eigenschaften mit Punktschreibweise
 
-### Objekt Scope
+### Objekt Scope ⬅️👀
 
 -   Definition von Methoden: Methoden sind Eigenschaften mit Funktionswerten
 -   Anwendung von Methoden: Überblick über die bisher verwendeten Methoden
