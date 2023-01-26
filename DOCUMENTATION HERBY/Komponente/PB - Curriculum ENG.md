@@ -254,13 +254,13 @@
 -   Shallow cloning objects and arrays: the spread operator `...`
 -   Deep cloning objects and arrays: recursive function
 
-### Destructuring⬅️👀
+### Destructuring ✔️
 
 -   Extracting values from arrays: Array destructuring assignment
 -   Extracting values from objects: Object destructuring assignment
 -   Named function parameters with object destructuring
 
-### Nesting arrays and objects
+### Nesting arrays and objects ⬅️👀
 
 -   Nesting and accessing arrays within each other
 -   Nesting and accessing objects in objects
