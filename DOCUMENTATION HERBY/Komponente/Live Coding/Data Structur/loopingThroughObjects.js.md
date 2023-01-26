@@ -7,7 +7,7 @@
 
 
 const oldCar = {
-  Marke: 'Toyota',
+  marke: 'Toyota',
   model: 'Tercel',
   year: '1996'
 };
@@ -16,21 +16,21 @@ for (const key in oldCar) {
   console.log(`${key} --> ${oldCar[key]}`);
 }
 
-// Marke --> Toyota
-// Modell --> Tercel
+// marke --> Toyota
+// modell --> Tercel
 
 // --------------------------------------------------------- //
 
 const person = {
     fname: "John", 
     lname: "Doe", 
-    Alter:25
+    age:25
 }; 
 
 let text = "";
 let x; // Eine Variable, die über die Eigenschaften eines Objekts iteriert
 for (x in Person) {
-  text = `${text}${person[x]}`; // text += person[x] + " ";
+  text = `${text} ${person[x]}`; // text += person[x] + " ";
   console.log(person[x]);
   
 }
@@ -47,37 +47,37 @@ for (const index in str) {
   console.log(`Index von ${str[index]}: ${index}`);
 }
 
-// Index von T: 0
-// Index von u: 1
+// Index von B: 0
+// Index von ä: 1
 
 // ----------##----------
 
 const fruits = {
-    Apfel: 28,
-    orange: 17,
-    birne: 54,
+    äpfel: 28,
+    orangen: 17,
+    birnen: 54,
   }
 
 const entries = Object.entries(fruits)
 console.log(entries);                       
-// [ [ 'Apfel', 28 ], [ 'Orange', 17 ], [ 'Birne', 54 ] ]
+// [ [ 'äpfel', 28 ], [ 'orangen', 17 ], [ 'birnen', 54 ] ]
 
 const keys = Object.keys(fruits)
 for (const key of keys) {
   console.log(key)
 }
-// Apfel
-// Orange
-// birne
+// äpfel
+// orangen
+// birnen
 
 
 for (const [fruit, count] of entries) {
-    console.log(`Es gibt ${count} ${fruit}s`)
+    console.log(`Es gibt ${count} ${fruit}`)
 }
 
-// Es gibt 28 Äpfel
-// Es gibt 17 Orangen
-// Es gibt 54 Birnen
+// Es gibt 28 äpfel
+// Es gibt 17 orangen
+// Es gibt 54 birnen
 
 
 // --------------------------------------------------------- //
@@ -95,10 +95,10 @@ for (const animal of animals) {
 }
 
 
-// Melvin der 🐔.
-// Henry der 🐷.
-// Henry der 🐑.
-// Henry der 🐇
+// Melvin the 🐔.
+// Henry the 🐷.
+// Henry the 🐑.
+// Henry the 🐇
 // adnaans-macbo
 ```
 *** Übersetzt mit www.DeepL.com/Translator (kostenlose Version) ***

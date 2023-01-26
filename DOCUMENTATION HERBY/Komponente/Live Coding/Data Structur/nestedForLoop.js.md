@@ -1,7 +1,7 @@
 ```JavaScript
-// NESTED LOOP 
+// NESTED LOOP (VERSCHACHTELTE SCHLEIFE)
 
-// LOOP INSIDE LOOP 
+// LOOP INSIDE LOOP (SCHLEIFE IN DER SCHLEIFE )
 
 const num = 3;
 
@@ -36,11 +36,11 @@ for(let i = 0; i <= num; i++){
 const num2 = 3;
 const x = 5;
 
-for (let i = 0; i <= num2; i++) {       // outer loop 
+for (let i = 0; i <= num2; i++) {       // äußerer loop 
     console.log("outer loop i = ", i);
-    for(let j = 0; j <= x; j++) {       // nested loop // inner loop
+    for(let j = 0; j <= x; j++) {       // verschachtelter loop // innerer loop
         console.log("Inner loop j = ", j);
-        console.log("outer loop i = ", i);  // outer counter we can use it! because of block scope
+        console.log("outer loop i = ", i);  // den äußeren Zähler können wir verwenden, wegen des Block-Scopes
     }
     
 }
@@ -102,7 +102,7 @@ for (let i = 0; i < 5; i++) { // outer loop
     // index, iterator, counter
     for (let j = 0; j < 5; j++) { // nested loop 
         // would it work? 
-        console.log('j', j); //closest, nested j
+        console.log('j', j); 
     }
     console.log('i', i);
 
@@ -143,8 +143,8 @@ for (let i = 0; i < 5; i++) { // outer loop
 
 const normalArray = ["a", "b", "c", "d", "e"]; // length = 5
 
-// nested arrays 
-// Sometimes we have to deal with arrays inside of arrays
+// verschachtelte arrays 
+// Manchmal müssen wir mit Arrays innerhalb von Arrays arbeiten
 const arrayInsideOfAnArray = [
     [1, 2, 1, 24], // [0]
     [8, 11, 9, 4],
@@ -152,26 +152,26 @@ const arrayInsideOfAnArray = [
     [7, 4, 28, 14], // ignored
     [3, 10, 26, 7] // innerLength = 4
 ]; // length = 5 
-// how can we access the normal Array
+// wie können wir auf das normale Array zugreifen
 console.log(normalArray[0]); // first item
 
-console.log(arrayInsideOfAnArray[0]); // first item of the nested array
-console.log(arrayInsideOfAnArray[4]); // last item of the nested array
+console.log(arrayInsideOfAnArray[0]); // erstes Element des verschachtelten Arrays
+console.log(arrayInsideOfAnArray[4]); // letztes Element des verschachtelten Arrays
 //  [i][j] 
-console.log(arrayInsideOfAnArray[0][0]); // very first very nested item 
+console.log(arrayInsideOfAnArray[0][0]); // allererste verschachtelte Position 
 console.log(arrayInsideOfAnArray.length);
 
 
 for (let i = 0; i < arrayInsideOfAnArray.length; i++) {
-    // in the outer array 
+    // in dem äußeren Array
     console.log(arrayInsideOfAnArray[i]); // 5 times 
-    // get the whole line
+    // die ganze Zeile erhalten
 
     for (let j = 0; j < arrayInsideOfAnArray[i].length; j++) {
-        // in the inner array 
-        if(i !== 3) { // ignore the fourth line 
+        // in dem inneren Array  
+        if(i !== 3) { // die vierte Zeile ignorieren
             console.log(arrayInsideOfAnArray[i][j]); // 20 times = 5 * 4
-            // get each item individually
+            // jeden einzelnen Element erhalten
         }   
     }
 }

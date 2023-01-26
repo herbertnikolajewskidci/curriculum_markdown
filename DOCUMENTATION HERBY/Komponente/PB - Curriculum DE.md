@@ -255,13 +255,13 @@
 -   Shallow Cloning von Objekten und Arrays: der Spread-Operator `...`
 -   Deep Cloning von Objekten und Arrays: rekursive Funktion
 
-### Destructuring ⬅️👀
+### Destructuring ✔️
 
 -   Extrahieren von Werten aus Arrays: Array-Destrukturierungszuweisung
 -   Extraktion von Werten aus Objekten: Objekt-Destrukturierungszuweisung
 -   Benannte Funktionsparameter mit Objektdestrukturierung
 
-### Nesting arrays and objects
+### Nesting arrays and objects ⬅️👀
 
 -   Verschachtelung und Zugriff auf Arrays ineinander
 -   Verschachtelung und Zugriff auf Objekte in Objekten
