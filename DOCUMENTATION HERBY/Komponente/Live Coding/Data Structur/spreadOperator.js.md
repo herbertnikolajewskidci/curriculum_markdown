@@ -119,7 +119,7 @@ function sumAll(...num) { // Restparameter wird im Argument übergeben
     sum += num[i];
   }
   // console.log(args);  
-  Summe zurückgeben;
+  return sum;
 }
 
 const myNumbers = [2, 4, 6, 8, 21, 456];

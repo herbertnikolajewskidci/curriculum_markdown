@@ -247,14 +247,14 @@
 -   Accessing properties with bracket notation (w. vars)
 -   Property values to array: `Object.values(<object>)`
 
-### Clones vs. References⬅️👀
+### Clones vs. References ✔️
 
 -   Simple values are always clones: String, Number, Boolean
 -   Objects are references by default: Array and object literals
 -   Shallow cloning objects and arrays: the spread operator `...`
 -   Deep cloning objects and arrays: recursive function
 
-### Destructuring
+### Destructuring⬅️👀
 
 -   Extracting values from arrays: Array destructuring assignment
 -   Extracting values from objects: Object destructuring assignment

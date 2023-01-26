@@ -248,14 +248,14 @@
 -   Zugriff auf Eigenschaften mit Klammerschreibweise (w. vars)
 -   Eigenschaftswerte in Array: `Object.values(<object>)`
 
-### Clones vs. References ⬅️👀
+### Clones vs. References ✔️
 
 -   Einfache Werte sind immer Klone: String, Zahl, Boolescher Wert
 -   Objekte sind standardmäßig Referenzen: Array und Objektliterale
 -   Shallow Cloning von Objekten und Arrays: der Spread-Operator `...`
 -   Deep Cloning von Objekten und Arrays: rekursive Funktion
 
-### Destructuring
+### Destructuring ⬅️👀
 
 -   Extrahieren von Werten aus Arrays: Array-Destrukturierungszuweisung
 -   Extraktion von Werten aus Objekten: Objekt-Destrukturierungszuweisung
