@@ -48,7 +48,7 @@ for (const index in str) {
 }
 
 // Index von B: 0
-// Index von ä: 1
+// Index von l: 1
 
 // ----------##----------
 
@@ -99,7 +99,6 @@ for (const animal of animals) {
 // Henry the 🐷.
 // Henry the 🐑.
 // Henry the 🐇
-// adnaans-macbo
 ```
 *** Übersetzt mit www.DeepL.com/Translator (kostenlose Version) ***
 
