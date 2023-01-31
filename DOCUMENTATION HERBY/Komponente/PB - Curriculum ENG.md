@@ -260,7 +260,7 @@
 -   Extracting values from objects: Object destructuring assignment
 -   Named function parameters with object destructuring
 
-### Nesting arrays and objects ⬅️👀
+### Nesting arrays and objects ✔️
 
 -   Nesting and accessing arrays within each other
 -   Nesting and accessing objects in objects
@@ -268,7 +268,7 @@
 -   Nesting and accessing arrays in objects
 -   Nesting and iterating over objects in arrays
 
-### Advanced Array methods
+### Advanced Array methods ⬅️👀
 
 -   Iterating over arrays: `Array.prototype.forEach(<function>)`
 -   Converting an array to a different array: `Array.prototype.map(<function>)`

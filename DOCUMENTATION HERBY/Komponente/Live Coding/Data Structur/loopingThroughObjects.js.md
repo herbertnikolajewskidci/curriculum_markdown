@@ -100,5 +100,4 @@ for (const animal of animals) {
 // Henry the 🐑.
 // Henry the 🐇
 ```
-*** Übersetzt mit www.DeepL.com/Translator (kostenlose Version) ***
 

@@ -2,7 +2,7 @@
 
 ## Vorschau auf die/den Woche/Tag:
 
-[[PB - Curriculum DE#Nesting arrays and objects ⬅️👀]]
+[[PB - Curriculum DE#Nesting arrays and objects ✔️]]
 
 ## Wiederholung Vortag  - 📖
 
@@ -18,7 +18,7 @@
 
 ### Curriculum 📝
 
-![[PB - Curriculum DE#Nesting arrays and objects ⬅️👀]]
+![[PB - Curriculum DE#Nesting arrays and objects ✔️]]
 
 
 ### Live Coding -  (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧

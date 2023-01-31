@@ -1,8 +1,8 @@
 ```js
 
-// The forEach() method is similar to the "for(let i = 0; i < array.length, i++){} or for(const value of array) {}" syntax. It loops through the array and runs the given callback for each of the elements of the array.
+// Die Methode forEach() ähnelt der Syntax "for(let i = 0; i < array.length, i++){} oder for(const value of array) {}". Sie durchläuft das Array in einer Schleife und führt den angegebenen Rückruf für jedes der Elemente des Arrays aus.
 
-// The callback function passed to the "forEach" function can accept the "currentItem", "index", "array".
+// Die an die "forEach"-Funktion übergebene Callback-Funktion kann die Werte "currentItem", "index", "array" annehmen.
 
 const arr = [1, 2, 3, 4, 5, 6, 7, 8];
 arr.forEach(val => console.log(val)); // val => console.log(val) <- callback function
@@ -16,10 +16,10 @@ arr.forEach(val => console.log(val)); // val => console.log(val) <- callback fun
 
 
 // ------------------------------------------- //
-// The map() method creates a new array with the results of calling a provided function on every element in the calling array.
+// Die Methode map() erstellt ein neues Array mit den Ergebnissen des Aufrufs einer bereitgestellten Funktion für jedes Element im aufrufenden Array.
 
-// The arr.map method is one of the most useful and often used.
-// It calls the function for each element of the array and RETURNS THE ARRAY OF RESULTS.
+// Die Methode arr.map ist eine der nützlichsten und am häufigsten verwendeten Methoden.
+// Sie ruft die Funktion für jedes Element des Arrays auf und gibt das Array der Ergebnisse zurück.
 
 // The syntax is:
 
@@ -27,15 +27,15 @@ arr.forEach(val => console.log(val)); // val => console.log(val) <- callback fun
 //   // returns the new value instead of item
 // })
 
-// When we need to iterate over an array – we can use forEach, for or for..of.
-// When we need to iterate and return the data for each element – we can use map.
+// Wenn wir über ein Array iterieren müssen - wir können forEach, for oder for..of verwenden.
+// Wenn wir iterieren und die Daten für jedes Element zurückgeben müssen, können wir map verwenden.
 
 const aRr = [1, 2, 3, 4, 5];
 const squareArr = aRr.map(num => num ** 2);
 
 console.log(squareArr);          // [ 1, 4, 9, 16, 25 ]
 
-// We wrote a function that returns the square of a number and passed that function as an argument to our map()
+// Wir haben eine Funktion geschrieben, die das Quadrat einer Zahl zurückgibt, und diese Funktion als Argument an unsere map() übergeben
 
 // ------------------------------ //
 
@@ -72,17 +72,17 @@ console.log(lengths); // [ 5, 7, 6 ]
 
 // ------------------------------ //
 
-// The map() method creates a new array with the results of calling a function for every array element.
+// Die Methode map() erstellt ein neues Array mit den Ergebnissen des Aufrufs einer Funktion für jedes Arrayelement.
 
-// The map() method calls the provided function once for each element in an array, in order.
+// Die Methode map() ruft die angegebene Funktion einmal für jedes Element in einem Array auf, und zwar der Reihe nach.
 
-// !!!map() does not execute the function for array elements without values.
+// !!!map() führt die Funktion nicht für Array-Elemente ohne Werte aus.
 
-// !!!map() does not change the original array.
+// !!!map() verändert das ursprüngliche Array nicht.
 
 // ------------------------------ //
 
-// Using map to reformat objectParamects in an array
+//  Umformatierung von objectParamects in einem Array mit map
 
 const newArray = [
     { key: 1, value: 10 },

@@ -1,22 +1,22 @@
 ```js
 // https://javascript.info/array-methods
 
-// The filter() method creates a new array with all elements that pass the test implemented by the provided function.
+// Die Methode filter() erzeugt ein neues Array mit allen Elementen, die den von der angegebenen Funktion implementierten Test bestehen.
 
-// The filter() method creates an array filled with all array elements that pass a test (provided as a function).
+// Die Methode filter() erzeugt ein Array, das mit allen Arrayelementen gefüllt wird, die einen (als Funktion bereitgestellten) Test bestehen.
 
-// filter() does not execute the function for array elements without values.
+// filter() führt die Funktion nicht für Array-Elemente ohne Werte aus.
 
-// filter() does not change the original array.
+// filter() verändert das ursprüngliche Array nicht.
 
 const numbers = [1, 2, 3, 4, 5];
 
 const oddNumbers = numbers.filter(num => num % 2 === 0);
 
-console.log(oddNumbers);    // [2, 4]
+console.log(oddNumbers); // [2, 4]
 
-// The filter function took a function which will return true if a number is even. 
-// The filter() “filters” the input array based on whether the element is true or false. 
+// Die Filterfunktion hat eine Funktion, die true zurückgibt, wenn eine Zahl gerade ist. 
+// Die Funktion filter() "filtert" das Eingabe-Array basierend darauf, ob das Element wahr oder falsch ist. 
 
 // ------------------------------ //
 
@@ -28,7 +28,7 @@ function checkAdult(age) {
 
 const isAllowed = ages.filter(checkAdult);
 
-console.log(isAllowed);     // [ 32, 33, 40 ]
+console.log(isAllowed); // [ 32, 33, 40 ]
 
 // ------------------------------ //
 
@@ -36,38 +36,38 @@ const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present']
 
 const result = words.filter(word => word.length > 6);
 
-console.log(result);    // ["exuberant", "destruction", "present"]
-
+console.log(result); // ["exuberant", "destruction", "present"]
 // ------------------------------ //
 
 // 1.
-function isBigEnough(value) {
-  return value >= 10;
+function isBigEnough(wert) {
+  return wert >= 10;
 }
 
 const filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
 
-console.log(filtered);  // [ 12, 130, 44 ]
+console.log(gefiltert); // [ 12, 130, 44 ]
 
 // 2.
-const filtered2 = [12, 5, 8, 130, 44].filter(value => value >= 10);
+const gefiltert2 = [12, 5, 8, 130, 44].filter(wert => wert >= 10);
 
-console.log(filtered2);     // [ 12, 130, 44 ]
+console.log(gefiltert2); // [ 12, 130, 44 ]
 
 // ------------------------------ //
 
 const fruits = ['apple', 'banana', 'grapes', 'mango', 'orange'];
 
 /**
- * Filter array items based on search criteria (query)
+ * Filtert Array-Elemente basierend auf Suchkriterien (Query)
  */
-function filterItems(arr, query) {
+function filterItems(arr, abfrage) {
   return arr.filter(element => element.toLowerCase().indexOf(query.toLowerCase()) !== -1)
 }
 
-console.log(filterItems(fruits, 'ap'));     // ['apple', 'grapes']
-console.log(filterItems(fruits, 'an'));     // ['banana', 'mango', 'orange']
-console.log(filterItems(fruits, "z"));      // []
+console.log(filterItems(fruits, 'ap')); // ['apple', 'grapes']
+console.log(filterItems(fruits, 'an')); // ['banana', 'mango', 'orange']
+console.log(filterItems(fruits, "z")); // []
 
 // ------------------------------ //
 ```
+

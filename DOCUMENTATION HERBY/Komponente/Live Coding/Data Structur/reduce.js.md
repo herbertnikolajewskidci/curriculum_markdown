@@ -1,45 +1,66 @@
 ```js
 // https://javascript.info/array-methods
 
-// The reduce() method executes a reducer function (that you provide) on each member of the array resulting in a single output value.
+// Die Methode reduce() führt eine (von Ihnen bereitgestellte) Reduzierfunktion auf jedem Element des Arrays aus, was zu einem einzigen Ausgabewert führt.
 
-// When we need to iterate over an array – we can use forEach, for or for..of.
+// Wenn wir über ein Array iterieren müssen, können wir forEach, for oder for..of verwenden.
 
-// When we need to iterate and return the data for each element – we can use map.
+// Wenn wir iterieren und die Daten für jedes Element zurückgeben müssen, können wir map verwenden.
 
-// The methods 'arr.reduce' and 'arr.reduceRight' are used to calculate a single value based on the array.
+// Die Methoden 'arr.reduce' und 'arr.reduceRight' werden verwendet, um einen einzelnen Wert auf der Grundlage des Arrays zu berechnen.
 
-// The syntax is:
+// Die Syntax lautet:
 
 // const value = arr.reduce(function(previousValue, item, index, array) {
-//   // ...
+// // ...
 // }, initial);
 
-// Your reducer function's returned value is assigned to the accumulator, 
-// whose value is remembered across each iteration throughout the array and ultimately becomes the final, single resulting value.
+// Der von der Reduzierfunktion zurückgegebene Wert wird dem Akkumulator zugewiesen, 
+// dessen Wert bei jeder Iteration im gesamten Array gespeichert wird und schließlich den endgültigen, einzigen Ergebniswert darstellt.
 
 const numbers = [1, 2, 3, 4];
 
 const sumReducer = (accumulator, currentValue) => accumulator + currentValue;
 const sum = numbers.reduce(sumReducer);
-console.log(sum);   // 10
+console.log(sum); // 10
 
 const sum2 = numbers.reduce(sumReducer, 5);
 
-console.log(sum2);  // 15
+console.log(sum2); // 15
 
 // ------------------------------ //
 
 const arr = [1, 2, 3, 4, 5];
-const result = arr.reduce((sum, current) => sum + current, 10);   // 10 is the current value passed to the first callback
+const result = arr.reduce((sum, current) => sum + current, 10); // 10 ist der aktuelle Wert, der an den ersten Callback übergeben wird
 console.log(result); // 25
 
 // ------------------------------ //
 
-const reducer = function (accumulator, currentValue, currentIndex, array) {
-  console.log("acc ", accumulator, "cv", currentValue, "ci", currentIndex, "arr ", array)
+const reducer = function (akkumulator, currentValue, currentIndex, array) {
+  console.log("acc ", akkumulator, "cv", currentValue, "ci", currentIndex, "arr ", array)
   return accumulator + currentValue;
 }
 
 arr.reduce(reducer);
+
+// ------------------------------ //
+
+
+let admins = [
+    { id: "1", name: "Peter Fox", isAdmin: true },
+    { id: "2", name: "Philipp Mattern", isAdmin: true },
+    { id: "3", name: "Michael Hammer", isAdmin: true },
+];
+
+function groupById(array) {
+	const reducerObj = (obj, value) => {
+		obj[value.id] = value;
+		return obj;
+    }
+    return array.reduce(reducerObj, {});
+
+}
+
+console.log(groupById(admins));
+
 ```

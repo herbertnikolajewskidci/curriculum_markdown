@@ -261,7 +261,7 @@
 -   Extraktion von Werten aus Objekten: Objekt-Destrukturierungszuweisung
 -   Benannte Funktionsparameter mit Objektdestrukturierung
 
-### Nesting arrays and objects ⬅️👀
+### Nesting arrays and objects ✔️
 
 -   Verschachtelung und Zugriff auf Arrays ineinander
 -   Verschachtelung und Zugriff auf Objekte in Objekten
@@ -269,7 +269,7 @@
 -   Verschachtelung von und Zugriff auf Arrays in Objekten
 -   Verschachtelung und Iteration über Objekte in Arrays
 
-### Advanced Array methods
+### Advanced Array methods ⬅️👀
 
 -   Iteration über Arrays: `Array.prototype.forEach(<function>)`
 -   Konvertieren eines Arrays in ein anderes Array: `Array.prototype.map(<Funktion>)`
