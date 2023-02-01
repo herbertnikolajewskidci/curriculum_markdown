@@ -71,3 +71,5 @@ console.log(binarySearch(arr, 12))
 // Dies ist eine Implementierung einer binären Suche, die eine gesuchte Zahl in einem sortierten Array findet. Bei jedem Schritt der Schleife wird das Suchintervall halbiert, daher wird die Zeit, die die Funktion benötigt, logarithmisch zur Größe des Arrays steigen. Daher hat die Funktion eine Komplexität von O(log n).
 ```
 
+
+![Big O Complexity chart](https://cdn.hackr.io/uploads/posts/attachments/1650357901lkH1xKTytK.png)
