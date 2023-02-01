@@ -269,14 +269,14 @@
 -   Verschachtelung von und Zugriff auf Arrays in Objekten
 -   Verschachtelung und Iteration über Objekte in Arrays
 
-### Advanced Array methods ⬅️👀
+### Advanced Array methods ✔️
 
 -   Iteration über Arrays: `Array.prototype.forEach(<function>)`
 -   Konvertieren eines Arrays in ein anderes Array: `Array.prototype.map(<Funktion>)`
 -   Konvertieren eines Arrays in einen einzelnen Wert: `Array.prototype.reduce(<Funktion>)`
 -   Abrufen einer Teilmenge eines Arrays: `Array.prototype.filter(<Funktion>)`
 
-### Logisches Denken III
+### Logisches Denken III ⬅️👀
 
 -   Über die Komplexität von Algorithmen nachdenken: Big O Notation (sehr einfache Einführung)
 -   Lesen komplexer Algorithmusbeispiele: Sortieren, kürzester Weg

@@ -2,11 +2,11 @@
 
 ## Vorschau auf die/den Woche/Tag:
 
-[[PB - Curriculum DE#Advanced Array methods ⬅️👀]]
+[[PB - Curriculum DE#Advanced Array methods ✔️]]
 
 ## Wiederholung Vortag  - 📖
 
-[[PB - Curriculum DE#Advanced Array methods ⬅️👀]]
+[[PB - Curriculum DE#Advanced Array methods ✔️]]
 
 ---
 
@@ -18,7 +18,7 @@
 
 ### Curriculum 📝
 
-![[PB - Curriculum DE#Advanced Array methods ⬅️👀]]
+![[PB - Curriculum DE#Advanced Array methods ✔️]]
 
 
 ### Live Coding -  (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧

@@ -268,14 +268,14 @@
 -   Nesting and accessing arrays in objects
 -   Nesting and iterating over objects in arrays
 
-### Advanced Array methods ⬅️👀
+### Advanced Array methods ✔️
 
 -   Iterating over arrays: `Array.prototype.forEach(<function>)`
 -   Converting an array to a different array: `Array.prototype.map(<function>)`
 -   Converting an array to a single value: `Array.prototype.reduce(<function>)`
 -   Getting a subset of an array: `Array.prototype.filter(<function>)`
 
-### Logical Thinking III
+### Logical Thinking III ⬅️👀
 
 -   Thinking of algorithm complexity: Big O Notation (Very simple introduction)
 -   Reading complex algorithm examples: sorting, shortest path
