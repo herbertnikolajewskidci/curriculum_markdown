@@ -9,11 +9,11 @@
 
 // O(1) bedeutet, dass die Funktion unabhängig von der Größe der Eingabedaten immer gleich schnell ausgeführt wird. 
 
-function getFirstElement(array) {
-  return array[0];
+function multiplayFirstAndLastElment(array) {
+  return array[0] * array[array.length - 1];
 }
 
-// Diese Funktion liefert immer das erste Element eines Arrays. Egal wie groß das Array ist, es wird immer nur ein Zugriff auf das Array erforderlich sein, um das erste Element abzurufen. Daher hat die Funktion eine Komplexität von O(1).
+// Diese Funktion liefert die Multiplaktion aus dem ersten und dem letzen Element eines Arrays. Egal wie groß das Array ist, es wird jeweils immer nur ein Zugriff auf das Array erforderlich sein, um das erste Element und das letzte Element abzurufen. Daher hat die Funktion eine Komplexität von O(1).
 
 
 // O(n) bedeutet, dass die Funktion proportional zur Größe der Eingabedaten länger dauert. 
@@ -72,4 +72,4 @@ console.log(binarySearch(arr, 12))
 ```
 
 
-![Big O Complexity chart](https://cdn.hackr.io/uploads/posts/attachments/1650357901lkH1xKTytK.png)
+![Big O Complexity chart](https://paper-attachments.dropbox.com/s_2D428973624E7FC84C7D69D11421DE762BEA6B6F3361231FCDCAE0425D14526F_1664885448372_Untitled.drawio+17.png)
