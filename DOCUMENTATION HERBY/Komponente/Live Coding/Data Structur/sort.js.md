@@ -41,7 +41,8 @@ console.log(words);
 
 ```
 
----
+Die anonyme Callback-Funktion im obigen Beispiel wird in der Regel auch als `compareFn` bezeichnet.
+
 ### compareFn
 
 Die `sort()` Methode in JavaScript akzeptiert eine Vergleichsfunktion (`compareFn`), die verwendet wird, um zwei Elemente im Array miteinander zu vergleichen und zu bestimmen, in welcher Reihenfolge sie sortiert werden sollen. Hier ist ein Beispiel:
@@ -135,6 +136,34 @@ Merge-Sort hat eine Zeitkomplexität von O(n log n) in allen Fällen.
 
 Es ist also sicher zu sagen, dass die Big O Notation der `sort()` Methode in JavaScript mindestens O(n log n) ist.
 
+Die `sort()` Methode in JavaScript nutzt in der Regel einen Timsort-Algorithmus, um Arrays zu sortieren. Timsort ist ein hybrider Algorithmus, der Teile von Insertion-Sort und Merge-Sort nutzt.
+
+Wenn Sie jedoch eine bestimmte Art der Sortierung benötigen, können Sie die `sort()` Methode mit einer Vergleichsfunktion überschreiben. Hier ist ein Beispiel, wie Sie das Array `employees` nach dem Namen sortieren können:
+
+```js
+let employees = [  { name: "John", age: 28 },  { name: "Jane", age: 32 },  { name: "Jim", age: 40 }];
+
+employees.sort(function(a, b) {
+  let nameA = a.name.toUpperCase();
+  let nameB = b.name.toUpperCase();
+
+  if (nameA < nameB) {
+    return -1;
+  }
+  if (nameA > nameB) {
+    return 1;
+  }
+
+  return 0;
+});
+
+console.log(employees);
+// Output: [{ name: "Jim", age: 40 }, { name: "Jane", age: 32 }, { name: "John", age: 28 }]
+```
+In diesem Beispiel wird die `sort()` Methode mit einer Vergleichsfunktion überschrieben, die den Namen des Objekts in Großbuchstaben umwandelt und dann die Vergleichsergebnisse zurückgibt, um das Array zu sortieren.
+
+### Appendix (Für alle die es noch interessiert)
+
 Hier ist ein  Beispiel einer Implementation des **Quick-Sort-Algorithmus** in JavaScript:
 
 ```js
@@ -164,6 +193,8 @@ console.log(quickSort(array));
 ```
 
 In diesem Beispiel wird der Quick-Sort-Algorithmus rekursiv aufgerufen, um das Array zu sortieren. Zuerst wird das letzte Element des Arrays als Pivot-Element ausgewählt. Dann werden alle Elemente, die kleiner als das Pivot-Element sind, in einem linken Array gespeichert, und alle Elemente, die größer oder gleich dem Pivot-Element sind, in einem rechten Array gespeichert. Die Funktion wird dann rekursiv für beide Arrays aufgerufen, bis alle Elemente sortiert sind.
+
+---
 
 Hier ist ein Beispiel einer Implementation des **Merge-Sort-Algorithmus** in JavaScript:
 ```js
@@ -208,29 +239,3 @@ console.log(mergeSort(array));
 // Output: [1, 2, 3, 4, 5, 6, 7]
 ```
 In diesem Beispiel wird der Merge-Sort-Algorithmus rekursiv aufgerufen, um das Array zu sortieren. Die Funktion `mergeSort` teilt das Array in zwei Hälften und sortiert jede Hälfte rekursiv. Die Funktion `merge` führt dann die beiden sortierten Hälften zu einem einzigen sortierten Array zusammen.
-
-Die `sort()` Methode in JavaScript nutzt in der Regel einen Timsort-Algorithmus, um Arrays zu sortieren. Timsort ist ein hybrider Algorithmus, der Teile von Insertion-Sort und Merge-Sort nutzt.
-
-Wenn Sie jedoch eine bestimmte Art der Sortierung benötigen, können Sie die `sort()` Methode mit einer Vergleichsfunktion überschreiben. Hier ist ein Beispiel, wie Sie das Array `employees` nach dem Namen sortieren können:
-
-```js
-let employees = [  { name: "John", age: 28 },  { name: "Jane", age: 32 },  { name: "Jim", age: 40 }];
-
-employees.sort(function(a, b) {
-  let nameA = a.name.toUpperCase();
-  let nameB = b.name.toUpperCase();
-
-  if (nameA < nameB) {
-    return -1;
-  }
-  if (nameA > nameB) {
-    return 1;
-  }
-
-  return 0;
-});
-
-console.log(employees);
-// Output: [{ name: "Jim", age: 40 }, { name: "Jane", age: 32 }, { name: "John", age: 28 }]
-```
-In diesem Beispiel wird die `sort()` Methode mit einer Vergleichsfunktion überschrieben, die den Namen des Objekts in Großbuchstaben umwandelt und dann die Vergleichsergebnisse zurückgibt, um das Array zu sortieren.
