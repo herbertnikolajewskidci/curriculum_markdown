@@ -91,7 +91,7 @@ Die nächste Frage, die in den Sinn kommt, ist, wie man weiß, welcher Algorithm
 -   Wenn die Größe der Eingabe bei jedem Durchlauf halbiert wird, zum Beispiel bei der Iteration, Bearbeitung von Rekursion usw., ist es eine logarithmische Zeitkomplexität (O(log n)).
 -   Wenn du nur eine Schleife in deinem Algorithmus hast, ist es eine lineare Zeitkomplexität (O(n)).
 -   Wenn du verschachtelte Schleifen in deinem Algorithmus hast, also eine Schleife in einer Schleife, ist es eine quadratische Zeitkomplexität (O(n^2)).
--   Wenn der Wachstumsrate bei jeder Erhöhung der Eingabe verdoppelt wird, ist es eine exponentielle Zeitkomplexität (O2^n).
+-   Wenn der Wachstumsrate bei jeder Erhöhung der Eingabe verdoppelt wird, ist es eine exponentielle Zeitkomplexität (O(2^n)).
 
 Lass uns mit der Beschreibung jeder Komplexität mit Beispielen beginnen. (Es ist wichtig zu beachten, dass ich in den Beispielen in diesem Leitfaden JavaScript verwenden werde, aber die Programmiersprache ist nicht wichtig, solange Sie das Konzept und jede Komplexität verstehen.)
 
