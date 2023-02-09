@@ -8,7 +8,7 @@ function outerFunction() {
     }
     return innerFunction;
 }
-add_5 = outerFunction();
+const add_5 = outerFunction();
 console.log(add_5(3)); // 8
 ```
 
@@ -22,7 +22,7 @@ function outerFunction() {
     }
     return innerFunction;
 }
-add_5 = outerFunction();
+const add_5 = outerFunction();
 console.log(add_5(3)); // 8
 ```
 
@@ -36,7 +36,7 @@ function outerFunction() {
     }
     return innerFunction;
 }
-add_5 = outerFunction();
+const add_5 = outerFunction();
 console.log(add_5(3)); // 8
 ```
 
@@ -50,7 +50,7 @@ function outerFunction() {
     }
     return innerFunction;
 }
-add_5 = outerFunction();
+const add_5 = outerFunction();
 console.log(add_5(3)); // 8
 ```
 
@@ -64,7 +64,7 @@ function outerFunction() {
     }
     return innerFunction;
 }
-add_5 = outerFunction();
+const add_5 = outerFunction();
 console.log(add_5(3)); // 8
 ```
 

@@ -276,8 +276,7 @@
 -   Konvertieren eines Arrays in einen einzelnen Wert: `Array.prototype.reduce(<Funktion>)`
 -   Abrufen einer Teilmenge eines Arrays: `Array.prototype.filter(<Funktion>)`
 
-### Logisches Denken III ✔️
-
+### Logisches Denken III 
 -   Über die Komplexität von Algorithmen nachdenken: Big O Notation (sehr einfache Einführung)
 -   Lesen komplexer Algorithmusbeispiele: Sortieren, kürzester Weg
 -   Sortieren von Arrays mit `Array.prototype.sort(<Funktion>)`
@@ -286,7 +285,7 @@
 
 ## Funktionen-II
 
-### Closure ⬅️👀
+### Closure ✔️
 
 -   Deklaration von Funktionen innerhalb von Funktionen
 -   Verschachtelte Geltungsbereiche: Zugriff auf äußere Variablen
@@ -294,7 +293,7 @@
 -   Funktionen höherer Ordnung I: Funktionen, die andere Funktionen zurückgeben
 -   Lesen eines Programms VI (die Funktionsaufrufzwiebel)
 
-### Rekursive Funktionen
+### Rekursive Funktionen ⬅️👀
 
 -   Rekursive Algorithmen
 -   Aufrufen einer Funktion aus sich selbst heraus
