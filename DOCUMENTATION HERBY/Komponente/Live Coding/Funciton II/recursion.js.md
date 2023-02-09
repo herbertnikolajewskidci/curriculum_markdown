@@ -82,6 +82,7 @@ countdown(5); // 5 4 3 2 1 0
 4.  Stack Overflow: Bedeutung der Abbruchbedingung:
 ```js
 function infiniteLoop() {
+  console.log("Hallo");
   infiniteLoop();
 }
 infiniteLoop(); // Stack overflow error
@@ -90,7 +91,7 @@ Hier sehen wir eine rekursive Funktion, die sich unendlich selbst aufruft und so
 
 ---
 
-5.  Lesen eines Programms VII (rekursive Aufrufbaum):
+5.  Rekursive Aufrufbaum:
 ```js
 function callTree(n) {
   console.log(n);
