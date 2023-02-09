@@ -275,7 +275,7 @@
 -   Converting an array to a single value: `Array.prototype.reduce(<function>)`
 -   Getting a subset of an array: `Array.prototype.filter(<function>)`
 
-### Logical Thinking III ⬅️👀
+### Logical Thinking III ✔️
 
 -   Thinking of algorithm complexity: Big O Notation (Very simple introduction)
 -   Reading complex algorithm examples: sorting, shortest path
@@ -285,7 +285,7 @@
 
 ## Functions-II
 
-### Closure
+### Closure ⬅️👀
 
 -   Declaring functions inside functions
 -   Nested scopes: Accessing outer variables
