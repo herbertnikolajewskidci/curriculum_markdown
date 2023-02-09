@@ -1,4 +1,7 @@
+# Recursion
+
 ## Einleitung
+
 Recursion ist eine Technik in der Programmierung, bei der eine <u>Funktion sich selbst aufruft,</u> um ein bestimmtes Problem zu lösen. Die Funktion splittet das Problem in kleinere Teilprobleme, die <u>sie dann selbst löst, bis das ursprüngliche Problem vollständig gelöst ist.</u>
 
 In JavaScript wird Recursion häufig bei der Lösung von Problemen verwendet, die sich rekursiv aufteilen lassen, wie z.B. das <u>Durchlaufen eines Baumes oder einer Liste.</u> Eine wichtige Regel bei der Verwendung von Rekursion ist es, eine <u>Abbruchbedingung</u> zu haben, um zu vermeiden, dass die<u> Funktion endlos aufruft und einen Fehler verursacht.</u>
