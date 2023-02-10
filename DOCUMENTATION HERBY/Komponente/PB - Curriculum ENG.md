@@ -293,14 +293,14 @@
 -   Higher Order functions I: Functions that return other functions
 -   Reading a program VI (the function call onion)
 
-### Recursive Functions ⬅️👀
+### Recursive Functions ✔️
 
 -   Recursive algorithms
 -   Calling a function from within itself
 -   Stack overflow: Importance of the exit condition
 -   Reading a program VII (recursive call tree)
 
-### Callbacks
+### Callbacks ⬅️👀
 
 -   Higher order functions II: Functions that accept function values (callbacks)
 

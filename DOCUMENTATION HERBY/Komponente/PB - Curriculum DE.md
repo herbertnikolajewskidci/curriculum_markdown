@@ -293,14 +293,14 @@
 -   Funktionen höherer Ordnung I: Funktionen, die andere Funktionen zurückgeben
 -   Lesen eines Programms VI (die Funktionsaufrufzwiebel)
 
-### Rekursive Funktionen ⬅️👀
+### Rekursive Funktionen  ✔️
 
 -   Rekursive Algorithmen
 -   Aufrufen einer Funktion aus sich selbst heraus
 -   Stack overflow: Die Bedeutung der Exit-Bedingung
 -   Lesen eines Programms VII (rekursiver Aufrufbaum)
 
-### Callbacks
+### Callbacks ⬅️👀
 
 -   Funktionen höherer Ordnung II: Funktionen, die Funktionswerte annehmen (Callbacks)
 
