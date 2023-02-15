@@ -300,7 +300,7 @@
 -   Stack overflow: Importance of the exit condition
 -   Reading a program VII (recursive call tree)
 
-### Callbacks ⬅️👀
+### Callbacks ✔️
 
 -   Higher order functions II: Functions that accept function values (callbacks)
 
@@ -308,7 +308,7 @@
 
 ## Classes
 
-### Classes: Manufacturing objects with the same structure
+### Classes: Manufacturing objects with the same structure ⬅️👀
 
 -   Creating instances with the `new` keyword, The `Date` class
 -   Constructing an object: The `constructor()` method, instance and `this`

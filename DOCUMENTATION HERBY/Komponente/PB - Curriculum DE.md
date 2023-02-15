@@ -300,7 +300,7 @@
 -   Stack overflow: Die Bedeutung der Exit-Bedingung
 -   Lesen eines Programms VII (rekursiver Aufrufbaum)
 
-### Callbacks ⬅️👀
+### Callbacks ✔️
 
 -   Funktionen höherer Ordnung II: Funktionen, die Funktionswerte annehmen (Callbacks)
 
@@ -308,9 +308,11 @@
 
 ## Klassen
 
-### Klassen: Herstellung von Objekten mit der gleichen Struktur
+### Klassen: Herstellung von Objekten mit der gleichen Struktur 
 
+##### Dienstag ✔️
 -   Erstellen von Instanzen mit dem Schlüsselwort `new`, Die Klasse `Date`
 -   Konstruieren eines Objekts: Die Methode `constructor()`, Instanz und `this`
+##### Mittwoch ⬅️👀
 -   Prototyp-Methoden: Hinzufügen eigener Methoden zu unserer Klasse
 -   Erstellen von Unterklassen mit `extends` und `super()`

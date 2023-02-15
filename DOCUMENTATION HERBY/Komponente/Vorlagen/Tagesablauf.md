@@ -14,16 +14,16 @@ Link einfügen
 
 ---
 
-## Hauptthema - 💻
+## Hauptthema - 🔍
 
-### Curriculum 📝
+### Curriculum 📚
 
 - Thema 1
 - Thema 2
 - usw.
 
 
-### Live Coding -  (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+### Live Coding -  💻
 
 -   Datei 1
 -   Datei 2
